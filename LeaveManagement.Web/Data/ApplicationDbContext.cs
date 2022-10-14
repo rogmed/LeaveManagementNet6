@@ -12,5 +12,12 @@ namespace LeaveManagement.Web.Data
 
         public DbSet<LeaveType> LeaveTypes { get; set; }
         public DbSet<LeaveAllocation> LeaveAllocations { get; set; }
+
+        public DbSet<LeaveAllocation> AtributeNuevo { get; set; }
+
+        public DbSet<LeaveAllocation> AtributeNuevo2 { get; set; }
+
+        public DbSet<LeaveAllocation> AtributeNuevo3 { get; set; }
+
     }
 }
